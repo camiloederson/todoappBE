@@ -15,7 +15,7 @@ public class CorsConfig {
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of("https://todo-app-fe-nine.vercel.app/",
-                "https://todoappbe-production.up.railway.app")); // Permite solo el frontend
+                "https://chic-imagination-production.up.railway.app")); // Permite solo el frontend
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("Authorization", "Content-Type"));
         config.setAllowCredentials(true);
